@@ -89,25 +89,6 @@ A per-claim cross-reference is in
 
 ---
 
-## Two discrepancies the verifier found
-
-The audit is configured to assert the **true** recomputed values, and in two
-places those differ from what the current paper draft prints:
-
-1. **Customary cooperative percentage.** The paper prints **45.3%**; the correct
-   value is **45.2%** (210/465 = 45.16%). A rounding/transcription typo — correct
-   it in the text and Table 1.
-2. **International GOF p-value bound.** The paper states all MC p-values exceed
-   **0.86**; the International network's GWESP term is **0.84**. Restate as
-   "≥ 0.84," or report the two networks separately (≥ 0.86 Customary, ≥ 0.84
-   International).
-
-Both are minor and easily corrected, but they are exactly the kind of number a
-reviewer might spot-check — fixing them before submission removes two avoidable
-queries.
-
----
-
 ## Reproducibility notes
 
 - **Exact vs. tolerance checks.** Integer counts are checked exactly. Real-valued
