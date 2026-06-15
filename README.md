@@ -1,7 +1,7 @@
 # Terms of Engagement in Constitutions — Paper Number Verifier
 
 Reproducibility bundle for **"Terms of Engagement in Constitutions: The State and
-Nonstate Law"** (Powell & Bambrick).
+Nonstate Law"** 
 
 This repository lets anyone **verify every reported number in the paper** by
 recomputing it from the source data. No model training, no GPU, runs in about
